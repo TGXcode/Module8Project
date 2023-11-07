@@ -104,8 +104,8 @@ netconf_copyrunstart = """
 """
 
 # Push successful NETCONF message to Webex room
-access_token = 'ZWUxZWRmODUtYWJjYS00YTAyLTliMGEtMWMxYjRhYTJhOWI5M2I3NWNkNGYtN2Uz_P0A1_36820416-bfff-433a-84bf-39585b2b3f67'
-room_id = 'Y2lzY29zcGFyazovL3VybjpURUFNOnVzLXdlc3QtMl9yL1JPT00vYWI5NjkxNzAtNzkyMC0xMWVlLWJlZTYtNmI0N2E1YjUyY2Rk'
+access_token = '' # <-- Place your API access token here
+room_id = '' # <-- Place your Webex room ID here
 message = 'NETCONF: **running-config** pushed and saved!'
 url = 'https://webexapis.com/v1/messages'
 headers = {
